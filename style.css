@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer {
+    width: 30rem;
+    height: 30rem;
+    border: 0.5rem solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+#green {
+    background-color: #4D6E41;
+}
+
+#red {
+    background-color: #BA3F3F;
+}
+
+#yellow {
+    background-color: #EED811;
+}
+
+#blue {
+    background-color: rgb(29, 29, 169);
+}
+
+.inner {
+    position: absolute;
+    z-index: 1000;
+    width: 13rem;
+    height: 13rem;
+    border: 0.3rem solid black;
+    background-color: gray;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.inner h2 {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+.btn-container {
+    display: flex;
+    gap: 1rem;
+    font-family: monospace;
+}
+
+.btn-container div {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-container button {
+    border-radius: 50%;
+    padding-inline: 0.5rem;
+}
+
+.count-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.count-box {
+    width: 4rem;
+    height: 2.5rem;
+    background-color: #672323;
+    text-align: center;
+    font-size: 2rem;
+    color: #E09E9E;
+}
