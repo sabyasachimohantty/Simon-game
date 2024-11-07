@@ -25,20 +25,36 @@ body {
     position: relative;
 }
 
-#green {
+.green {
     background-color: #4D6E41;
 }
 
-#red {
+.red {
     background-color: #BA3F3F;
 }
 
-#yellow {
+.yellow {
     background-color: #EED811;
 }
 
-#blue {
+.blue {
     background-color: rgb(29, 29, 169);
+}
+
+.green-glow {
+    background-color: 	#36ff0f;
+}
+
+.red-glow {
+    background-color: #FF3131;
+}
+
+.yellow-glow {
+    background-color: #FFFF00;
+}
+
+.blue-glow {
+    background-color: #2323ff;
 }
 
 .inner {
