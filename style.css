@@ -34,11 +34,11 @@ body {
 }
 
 .yellow {
-    background-color: #EED811;
+    background-color: goldenrod;
 }
 
 .blue {
-    background-color: rgb(29, 29, 169);
+    background-color: darkblue;
 }
 
 .green-glow {
@@ -54,7 +54,7 @@ body {
 }
 
 .blue-glow {
-    background-color: #2323ff;
+    background-color: #0303fd;
 }
 
 .inner {
